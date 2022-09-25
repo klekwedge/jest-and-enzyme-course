@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Posts component should render Post component 1`] = `
+<div
+  class="wrapper"
+>
+  <h1
+    class="title"
+  >
+    Hacker News
+  </h1>
+  <div
+    class="selectWrapper"
+  >
+    <select>
+      <option
+        value="10"
+      >
+        10
+      </option>
+      <option
+        selected=""
+        value="20"
+      >
+        20
+      </option>
+      <option
+        value="40"
+      >
+        40
+      </option>
+      <option
+        value="50"
+      >
+        50
+      </option>
+    </select>
+    <span
+      class="selectText"
+    >
+      per page
+    </span>
+  </div>
+  <div
+    class="inputWrapper"
+  >
+    <i
+      class="fas fa-search"
+    />
+    <input
+      class="input"
+      placeholder="Click to search"
+      value=""
+    />
+  </div>
+  <ul
+    class="newsList"
+  >
+    <li
+      class="post"
+    >
+      <div
+        class="description"
+      >
+        <a
+          class="title"
+          href="//test.url"
+        >
+          Jest & Enzyme
+        </a>
+        <span
+          class="text"
+        >
+          100 points
+        </span>
+        <span
+          class="comments"
+        >
+          10 comments
+        </span>
+        <span
+          class="date"
+        >
+          04.05.2020
+        </span>
+        <span
+          class="author"
+        >
+          Yauhen
+        </span>
+      </div>
+    </li>
+    <li
+      class="post"
+    >
+      <div
+        class="description"
+      >
+        <a
+          class="title"
+          href="//test2121.url"
+        >
+          TypeScript Basics
+        </a>
+        <span
+          class="text"
+        >
+          10 points
+        </span>
+        <span
+          class="comments"
+        >
+          8 comments
+        </span>
+        <span
+          class="date"
+        >
+          06.05.2020
+        </span>
+        <span
+          class="author"
+        >
+          Stepan
+        </span>
+      </div>
+    </li>
+  </ul>
+</div>
+`;
